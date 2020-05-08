@@ -1,4 +1,10 @@
-# Model Deployment with Sagemaker
+# Machine Learning Engineering with AWS
+
+This repository contains various template codes for training, testing, and deploying machine learning models with Amazon Sagemaker.
+
+* Reference: Udacity's Github [repo](https://github.com/udacity/sagemaker-deployment) for Deep Learning Nanodegree
+
+## Case study
 
 Say we want to build a webapp that accepts a user's review. The entered review text data is sent off to an endpoint, created using API Gateway. The endpoint acts as an interface to a Lambda function that processes the user data and sends it off to the deployed model's endpoint. The deployed model performs inference on the processed data and returns the inference results to the Lambda function. The Lambda function returns the results to the original caller using the endpoint constructed using API Gateway. Lastly, the website receives the inference results and displays those results to the user.
 
